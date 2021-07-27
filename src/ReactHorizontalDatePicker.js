@@ -11,6 +11,7 @@ import {
   isBefore,
   getDate
 } from "date-fns";
+import pt from 'date-fns/locales/pt';
 
 export default React.memo(function ReactHorizontalDatePicker({
   enableDays,
